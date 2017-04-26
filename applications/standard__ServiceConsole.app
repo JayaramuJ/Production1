@@ -2,14 +2,8 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultLandingTab>standard-home</defaultLandingTab>
     <detailPageRefreshMethod>none</detailPageRefreshMethod>
-    <enableCustomizeMyTabs>false</enableCustomizeMyTabs>
     <enableKeyboardShortcuts>true</enableKeyboardShortcuts>
-    <enableListViewHover>true</enableListViewHover>
-    <enableListViewReskin>true</enableListViewReskin>
     <enableMultiMonitorComponents>true</enableMultiMonitorComponents>
-    <enablePinTabs>true</enablePinTabs>
-    <enableTabHover>false</enableTabHover>
-    <enableTabLimits>false</enableTabLimits>
     <isServiceCloudConsole>true</isServiceCloudConsole>
     <keyboardShortcuts>
         <defaultShortcut>
@@ -156,11 +150,6 @@
             <action>TOGGLE_APP_LEVEL_COMPONENTS</action>
             <active>false</active>
             <keyCommand>Z</keyCommand>
-        </defaultShortcut>
-        <defaultShortcut>
-            <action>REOPEN_LAST_TAB</action>
-            <active>false</active>
-            <keyCommand>SHIFT+C</keyCommand>
         </defaultShortcut>
     </keyboardShortcuts>
     <listPlacement>
